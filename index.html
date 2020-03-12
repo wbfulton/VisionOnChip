@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="icon" href="./img/logos/vis-logo.png">
 
   <title>Vision On Chip</title>
 
@@ -42,9 +43,6 @@
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -75,9 +73,9 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">We provide measurement systems and analysis systems for testing, 
-            data validation for autonomous vehicle systems and vision AI development to the world's leading OEM, tier1, 
-            and the vehicle driving platform company.</h3>
+          <h3 class="section-subheading text-muted">We provide measurement and analysis systems for testing and 
+            data validation of autonomous vehicle systems, and vision AI development to the world's leading OEM, tier1, 
+            and the vehicle driving platform industry.</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -86,8 +84,8 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-chart-bar fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">	
-            ADAS Measurement Analysis System</h4>
+          <a class="nav-link js-scroll-trigger" href="#portfolio"><h4 class="service-heading">	
+            ADAS Measurement Analysis System</h4></a>
           <p class="text-muted">Recording, re-processing, and analysis functions are essential in order to develop 
             and test the autonomous system and vision AI systems</p>
         </div>
@@ -96,7 +94,11 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Accelerator Design Service</h4>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <h4 class="service-heading">Accelerator Design Service</h4>
+            </div>
+          </a>
           <p class="text-muted">Provides accelerator design to operate vision algorithms for robots, medical systems, vision AI and autonomous vehicles in real time.</p>
         </div>
         <div class="col-md-3">
@@ -104,8 +106,11 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">
-            Display Drive Controller Module</h4>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <h4 class="service-heading">Display Drive Controller Module</h4>
+            </div>
+          </a>
           <p class="text-muted">Our DDC technology provides drive performance for high frame rate and high-resolution displays, 
                     including panels, optical technologies and video processors.</p>
         </div>
@@ -114,23 +119,46 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-microchip fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">
-            	ASIC (System on Chip) Design</h4>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <h4 class="service-heading">ASIC (System on Chip) Design</h4>
+            </div>
+          </a>
           <p class="text-muted">Using our vast experience and technology, we serve to develop SoC chips that perfectly fit customers needs.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
+  <!-- ADAS Chips Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Chips</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">ADAS Chips</h2>
+          <h3 class="section-subheading text-muted m-2"> For the development and testing of vision AI systems 
+            (including autonomous system)s, equipment for logging, reprocessing, 
+            HiLs and analysis of sensor data and network data for vehicles is absolutely necessary.
+          </h3>
+          <h3 class="section-subheading text-muted m-2">Applications include: </h3>
+          <ul class="list-inline-item text-muted">
+            <li>
+              <p>
+                Sensor data: Camera (include stereo), Radar, Lidar, GPS, IMU, etc 
+              </p>
+            </li>
+            <li>
+              <p>
+                Vehicle network data : CAN (FD), FlexRay, Automotive ethernet, etc
+              </p>
+            </li>
+          </ul>
+          <h3 class="section-subheading text-muted">
+            Based on sophisticated synchronization (minimum 12.8 ns) between data, our product meet the perfect HiLs condition without loss of data
+          </h3>
         </div>
       </div>
+      <!-- Chips -->
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -142,8 +170,8 @@
             <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>VL2200</h4>
+            <p class="text-muted">Gateway Equipment for Measurement</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -156,8 +184,8 @@
             <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>VL2100</h4>
+            <p class="text-muted">Gateway Equipment for Measurement</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -170,8 +198,8 @@
             <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>VL1400</h4>
+            <p class="text-muted">Gateway Equipment for Measurement</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -184,8 +212,8 @@
             <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+            <h4>VT300</h4>
+            <p class="text-muted">SDK and GUI program of Gateway Equipment for Measurement</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -198,8 +226,8 @@
             <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <h4>VEMC200</h4>
+            <p class="text-muted">BroadR-reach media converter / automotive ethernet media converter</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -212,8 +240,22 @@
             <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <h4>VEMC300</h4>
+            <p class="text-muted">BroadR-reach media converter / automotive ethernet media converter</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>VT200</h4>
+            <p class="text-muted">Analysis software</p>
           </div>
         </div>
       </div>
@@ -421,14 +463,35 @@
   </section>
 
   <!-- Contact -->
-  <section class="page-section" id="contact">
+  <section class="page-section p-5" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
+      <section class="page-section p-1" id="services">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-globe-asia fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="text-white service-heading">	
+                Korea HQ</h4>
+              <p class="text-white"><strong>ADDRESS: </strong>#304, Baeksang Star Tower2, 165, Gasan digital 2-ro, Geumcheon-gu, Seoul, Korea</p>
+              <p class="text-white"><strong>PHONE: </strong>+82 (70) 4800-2860  |  FAX : +82 (70) 4015-7388</p>
+              <p class="text-white"><strong>EMAIL: </strong>Technical support : dyhwang0@visiononchip.com Sales : ysj@visiononchip.com</p>
+            </div>
+            <div class="col-md-6">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                <i class="fas fa-globe-americas fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4 class="text-white service-heading">US Office</h4>
+              <p class="text-white"><strong>ADDRESS: </strong>3003 North First Street #323, San Jose, California 95134, USA</p>
+            </div>
+          </div>
       <div class="row">
         <div class="col-lg-12">
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -445,6 +508,12 @@
                 <div class="form-group">
                   <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <select name="email" id="email-input">
+                    <option value="g@gmail.com">g@gmail.com</option>
+                    <option value="e@gmail.com">e@gmail.com</option>
+                  </select>
                 </div>
               </div>
               <div class="col-md-6">
@@ -470,7 +539,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Vision On Chip 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
