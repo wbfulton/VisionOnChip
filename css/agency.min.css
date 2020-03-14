@@ -11,3 +11,9 @@
   .list-bullet {
     list-style-type: disc;
   }
+
+  .col-partner {
+    -ms-flex: 0 0 13.666667%;
+    flex: 0 0 13.666667%;
+    max-width: 13.666667%;
+  }
