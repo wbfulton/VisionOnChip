@@ -1,6 +1,6 @@
 # [Vision On Chip]
 
-This website for Vision On Chip features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+This website for Vision On Chip features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a responsive timeline.
 
 
 ## Status
